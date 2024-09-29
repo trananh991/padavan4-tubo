@@ -182,7 +182,7 @@ struct nvram_pair router_defaults[] = {
 	{ "wl_maclist", "" },			/* xx:xx:xx:xx:xx:xx ... */
 	{ "wl_wme", "1" },			    /* WME mode (off|on) */
 	{ "wl_wme_no_ack", "off" },		/* WME No-Acknowledgment mode */
-	{ "wl_auth_mode", "psk" },		/* Network authentication mode: WPAx Personal */
+	{ "wl_auth_mode", "open" },		/* Network authentication mode: WPAx Personal */
 	{ "wl_key", "1" },				/* Current WEP key */
 	{ "wl_key1", "" },				/* 5/13 char ASCII or 10/26 char hex */
 	{ "wl_key2", "" },				/* 5/13 char ASCII or 10/26 char hex */
@@ -309,7 +309,7 @@ struct nvram_pair router_defaults[] = {
 	{ "rt_TxBurst", "1" },
 	{ "rt_PktAggregate", "1" },
 	{ "rt_APSDCapable", "0" },
-	{ "rt_auth_mode", "psk" },
+	{ "rt_auth_mode", "open" },
 	{ "rt_crypto", "aes" },
 	{ "rt_wpa_psk", DEF_WLAN_2G_PSK },
 	{ "rt_wpa_gtk_rekey", "3600" },
