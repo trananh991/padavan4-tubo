@@ -101,7 +101,7 @@ on:
         required: true
         type: string
         default: '{"ss":"y","v2ray":"n","xray":"y","trojan":"y","ssobfs":"y","smartdns":"y","vlmcsd":"y","ttyd":"n","iperf3":"n"}'
-      customization:
+    #  customization:
       #  description: 'String JSON list of Customization'
        # required: true
         #type: string
